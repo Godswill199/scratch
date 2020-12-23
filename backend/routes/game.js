@@ -5,7 +5,7 @@ const multerInstance = require('./multer')
 
 
 router.post("/game", multerInstance.single('image'),
-gameController.createGame
+gameController.createGame, 
 )
 
 router.get("/game", gameController.getGames);
