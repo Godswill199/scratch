@@ -1,30 +1,44 @@
 const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
 
-const CartSchema = new mongoose.Schema(
-  {
-    userId: {
+const ItemSchema = new mongoose.Schema({
+
+  
+    gameId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User"
+      ref: "Game"
     },
-    products: [
+    quantity: 
       {
-        productId: Number,
-        quantity: Number,
-        name: String,
-        price: Number
-      }
-    ],
-    active: {
-      type: Boolean,
-      default: true
+        type: Number,
+        required: true,
+        min: [1, 'Quantity can not be lesser than one'],
+      },
+    price: {
+      type: Number,
+      required: true
     },
-    modifiedOn: {
-      type: Date,
-      default: Date.now
+    total: {
+      type: Number,
+      required: true
     }
   },
-  { timestamps: true }
-);
+  { 
+    timestamps: true 
+  });
+
+  const CartSchema = new Schema({
+
+    items: [ItemSchema],
+    subTotal: {
+      default: 0,
+      type: Number
+    }
+  },
+  { 
+    timestamps: true 
+  });
+
 
 
 

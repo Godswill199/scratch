@@ -16,6 +16,6 @@ exports.createGame = async payload => {
 }
 
 exports.removeGame = async id => {
-    const game = await Game.findById(id);
+    const game = await Game.findByIdAndRemove(id);
     return game;
 }

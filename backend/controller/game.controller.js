@@ -4,11 +4,12 @@ exports.createGame = async (req, res, next) => {
   try {
     const payload = {
       name: req.body.name,
+      productId: req.body.productId,
       price: req.body.price,
       category: req.body.category,
       gameIsNew: req.body.gameIsNew,
       topPrice: req.body.topPrice,
-      isVerOrient: req.body.IsVerOrient,
+      isVerOrient: req.body.isVerOrient,
       description: req.body.description,
       image: req.file.filename,
     };
@@ -50,7 +51,7 @@ exports.getGameById = async (req, res) => {
   try {
     let id = req.params.id;
     let gameDetails = await gameRepository.gameById(id);
-    req.req.status(200).json({
+    res.status(200).json({
       status: true,
       data: gameDetails,
     });

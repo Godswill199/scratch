@@ -9,6 +9,10 @@ const GameSchema = new Schema({
         type: String,
         required: [true, 'Title field is required']
     },
+    productId: {
+        type: Number,
+        required: true
+    },
 
     price:{
         type: Number,
@@ -25,13 +29,13 @@ const GameSchema = new Schema({
 
     },
     topPrice: {
-        type: Number,
+        type: String,
         required: true
 
     },
     isVerOrient: {
         type: Boolean,
-       
+        required: true
     },
     description: {
         type: String,
