@@ -58,8 +58,8 @@ const GameDetails = () => {
                                 .map(game => {
                                     return (
                                         <GameBox id={game.id} image={game.image} title={game.title} price={game.price} isNew={game.isNew} /> 
-                                    )
-                                })
+               )
+         })
 
 
     const increaseQuantity = () =>{

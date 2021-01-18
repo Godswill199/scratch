@@ -22,7 +22,7 @@ const Header = () => {
                     <span> <Icon.Search /> </span>
                 </div> */}
            
-                <div className="flex justify-between ctas">
+                {/* <div className="flex justify-between ctas">
             <Link to="/cart" >
                     <div className="cart-container">
                         <Tooltip placement="top" content="View Cart">
@@ -36,7 +36,7 @@ const Header = () => {
 
                  <AuthOptions />
 
-                </div>
+                </div> */}
             </div>
         </div>
     );

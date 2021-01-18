@@ -8,9 +8,9 @@ const GameBox = (props) => {
     const gameImage = 'url('+props.image+')'
 
     return (
-        <div>
+    <>
 
-            <Link to={"/game/"+ props.id} key={props.id} className="game-box">
+            <Link to={"/game/"+ props.id} key={props.id} className="grid game-box">
                 <div className="image flex justify-center">
                     <span className="img-box" style={{ background: gameImage, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}></span>
                 </div>
@@ -34,7 +34,7 @@ const GameBox = (props) => {
                 </div> */}
             </Link>
             
-        </div>
+</>
     );
 }
 

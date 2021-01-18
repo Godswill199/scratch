@@ -72,9 +72,12 @@ checkLoggedIn();
                                 <Signup />
                             </Route>
 
-                            <Route path="/game/:id">
-                                <GameDetails /> 
-                            </Route>
+                            <Route path="/game/:id" component={() => { 
+                            window.location.href = 'https://selar.co/m/scratch9ja'; 
+                            return null;
+                            }}/>
+                            
+                          
 
                             <Route path="/cart">
                                 <Cart />

@@ -21,13 +21,13 @@
 
     @include mobile-576{
         width: 180px;
-        padding: 7px;
-        margin-bottom: 0;
+        padding: 5px;
+        margin-bottom: 1;
     }
 
     @include mobile-375{
-        width: 160px;
-        padding: 4px;
+        width: 150px;
+        padding: 3px;
     }
 
     .image{
