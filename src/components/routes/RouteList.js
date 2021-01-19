@@ -72,7 +72,7 @@ checkLoggedIn();
                                 <Signup />
                             </Route>
 
-                            <Route path="/game/:id" component={() => { 
+                            <Route path="/game/" component={() => { 
                             window.location.href = 'https://selar.co/m/scratch9ja'; 
                             return null;
                             }}/>
