@@ -10,7 +10,7 @@ const GameBox = (props) => {
     return (
     <>
 
-            <Link to={"/game/"+ props.id} key={props.id} className="grid game-box">
+           <a href={'https://selar.co/m/scratch9ja'} className="grid game-box">
                 <div className="image flex justify-center">
                     <span className="img-box" style={{ background: gameImage, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}></span>
                 </div>
@@ -32,7 +32,7 @@ const GameBox = (props) => {
                 {/* <div className="flex winning-price">
                     <span>top prize: &#8358;50,000</span>
                 </div> */}
-            </Link>
+            </a>
             
 </>
     );
