@@ -82,7 +82,7 @@ const GamesByCategories = () => {
             </div>
 
             <div className="grid justify-center categories-games">
-                <div className="flex flex-wrap categories-games-container">
+                <div className="flex flex-wrap justify-center categories-games-container">
                     { gamesList }
                 </div> 
             </div>
