@@ -10,7 +10,7 @@ const GameBox = (props) => {
     return (
     <>
 
-           <a href={'https://selar.co/m/scratch9ja'} className="grid sm:mx-8 game-box">
+           <a href={'https://selar.co/m/scratch9ja'} className="grid mr-3 game-box">
                 <div className="image flex justify-center">
                     <span className="img-box" style={{ background: gameImage, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}></span>
                 </div>
