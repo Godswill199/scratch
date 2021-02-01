@@ -28,7 +28,7 @@ const GamesContextProvider = (props) => {
         {id: 5, image: game5, title: 'Seasons Greetings', price: 2000.00, category: 3, isNew: false, topPrize: "1,000,000", isVerOrient: true,
         desc: "Scratch only three(3) Christmas tree balls & win any amount you find!"},
 
-        {id: 6, image: game6, title: 'Sure Banker', price: 500.00, category: 3, isNew: false, topPrize: "N50,000", isVerOrient: true,
+        {id: 6, image: game6, title: 'Sure Banker', price: 1000.00, category: 3, isNew: false, topPrize: "N50,000", isVerOrient: true,
         desc: "Scratch all the trophies to reveal all the winning numbers. Scratch only four(4) players' faces to reveal your numbers. if all your numbers match all the winning numbers you win!"},
 
         {id: 7, image: game7, title: 'Jackpot', price: 2000.00, category: 3, isNew: false, topPrize: "N500,000", isVerOrient: true,
