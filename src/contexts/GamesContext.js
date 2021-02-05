@@ -5,7 +5,7 @@ import game3 from '../imgs/footballedition2.png'
 import game4 from '../imgs/GADGETHUNT.jpg'
 import game5 from '../imgs/xmas1front.jpg'
 import game6 from '../imgs/SUREBANKER.png'
-import game7 from '../imgs/JACKPOT1Kfront.jpg'
+import game7 from '../imgs/JACKPOT1Kfront.png'
 
 export const GamesContext = createContext();
 
