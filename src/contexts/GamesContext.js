@@ -25,7 +25,7 @@ const GamesContextProvider = (props) => {
         {id: 4, image: game4, title: 'Gadget Hunt', price: 2000.00, category: 1, isNew: false, topPrize: "N500,000", isVerOrient: true,
         desc: "Scratch only four circles to reveal gadgets, If you have four matching gadgets you win!"},
 
-        {id: 5, image: game5, title: 'Seasons Greetings', price: 2000.00, category: 3, isNew: false, topPrize: "1,000,000", isVerOrient: true,
+        {id: 5, image: game5, title: 'Seasons Greetings', price: 5000.00, category: 3, isNew: false, topPrize: "1,000,000", isVerOrient: true,
         desc: "Scratch only three(3) Christmas tree balls & win any amount you find!"},
 
         {id: 6, image: game6, title: 'Sure Banker', price: 1000.00, category: 3, isNew: false, topPrize: "N50,000", isVerOrient: true,
