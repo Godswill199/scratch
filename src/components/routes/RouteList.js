@@ -8,6 +8,7 @@ import Homepage from '../pages/Homepage'
 import Login from '../pages/Login'
 import Signup from '../pages/Signup';
 import Cart from '../pages/Cart';
+import Payment from '../pages/payment';
 import Axios from 'axios';
 
 
@@ -82,6 +83,10 @@ checkLoggedIn();
                             <Route path="/cart">
                                 <Cart />
                             </Route>
+
+                            <Route path="/payment"> 
+                             <Payment />  
+                            </Route>
  
                         </CartContextProvider>
                     </GamesContextProvider>
