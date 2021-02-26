@@ -34,10 +34,11 @@ function payment() {
    
             
     <div class="font-bold text-xl mb-2">Kindly make a bank transfer to the account below</div>
-    <div class=" text-lg mb-2">BANK: Access Bank </div>
-    <div class=" text-lg mb-2">ACCOUNT NUMBER: 0063528722  </div>
-    <div class=" text-lg mb-2">ACCOUNT NAME: Hottub Pinault  </div>
+     <div class=" text-lg mb-2"> <span className="text-red-700"> BANK:</span> Access Bank </div>
+    <div class=" text-lg mb-2"> <span className="text-red-700"> ACCOUNT NUMBER:</span> 0063528722  </div>
+    <div class=" text-lg mb-2"> <span className="text-red-700"> ACCOUNT NAME:</span> Hottub Pinault  </div>
 
+  <PageDivider />   
     <div class=" text-lg mb-2">PS: After you make transfer; Kindly send a proof of payment to account@scratch9ja.com  </div>
   <p class="text-xl mb-2">
     Your full name 
