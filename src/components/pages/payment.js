@@ -23,7 +23,7 @@ function payment() {
  </a>
 
  <a href="https://paystack.shop/scratch9ja" className="custom-btn with-icon mx-4 ">
-       <span>Pay with USSD</span>
+       <span>Pay via USSD</span>
  </a>
 
     </div>
