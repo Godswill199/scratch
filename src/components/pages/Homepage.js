@@ -84,6 +84,13 @@ const Homepage = () => {
             <PageDivider />
 
             <GamesByCategories/>
+        
+           <div className="flex ">
+            <a href="/payment" className="mx-auto custom-btn ">
+               <span>Start Playing</span>
+            </a>
+
+          </div>
 
             <PageDivider />
 
