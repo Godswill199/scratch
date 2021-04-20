@@ -22,7 +22,7 @@ function payment() {
        <span>Pay with Card</span>
  </a>
 
- <a href="https://paystack.shop/scratch9ja" className="custom-btn with-icon mx-4 ">
+ <a href="https://flutterwave.com/store/scratch9ja?_ga=2.69593744.1660268240.1618829312-1201728733.1618829312" className="custom-btn with-icon mx-4 ">
        <span>Pay via USSD</span>
  </a>
 
