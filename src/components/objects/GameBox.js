@@ -10,7 +10,7 @@ const GameBox = (props) => {
     return (
     <>
 
-           <a href={'https://selar.co/m/scratch9ja'} className="grid mr-3 game-box">
+           <a href={'https://flutterwave.com/store/scratch9ja?_ga=2.69593744.1660268240.1618829312-1201728733.1618829312'} className="grid mr-3 game-box">
                 <div className="image flex justify-center">
                     <span className="img-box" style={{ background: gameImage, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}></span>
                 </div>
